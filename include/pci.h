@@ -71,6 +71,7 @@ static inline uint8_t pci_config_readb(uint16_t bdf, uint32_t addr)
 #define PCI_DEVICE_ID_INTEL_Q35_MCH     0x29c0
 #define PCI_DEVICE_ID_INTEL_82371SB_1	0x7010
 #define PCI_DEVICE_ID_INTEL_82371AB	0x7111
+#define PCI_DEVICE_ID_INTEL_VIRT 0x0d57
 
 #define PCIE_MMCONFIG_BASE 0xb0000000
 #define PCIE_MMCONFIG_SIZE (256 * 1024 * 1024)
